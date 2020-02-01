@@ -1,0 +1,2 @@
+# R5T.Solgene.VS2019
+A VS2019-based IVisualStudioSolutionFileGenerator service implementation for the Solgene project.
