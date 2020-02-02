@@ -7,9 +7,17 @@ namespace R5T.Solgene.VS2019
 {
     public class VisualStudioSolutionFileGenerator : IVisualStudioSolutionFileGenerator
     {
-        public SolutionFile GenerateSolutionFile()
+        private IVisualStudio2019SolutionFileGenerator VisualStudio2019SolutionFileGenerator {  get; }
+
+
+        public VisualStudioSolutionFileGenerator(IVisualStudio2019SolutionFileGenerator visualStudio2019SolutionFileGenerator)
         {
-            var solutionFile = SolutionFileGenerator.NewVisualStudio2019();
+            this.VisualStudio2019SolutionFileGenerator = visualStudio2019SolutionFileGenerator;
+        }
+
+        public SolutionFile GenerateVisualStudioSolutionFile()
+        {
+            var solutionFile = this.VisualStudio2019SolutionFileGenerator.GenerateVisualStudio2019SolutionFile();
             return solutionFile;
         }
     }
