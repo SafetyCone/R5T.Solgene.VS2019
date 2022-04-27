@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Cambridge.Types;
+using R5T.Cambridge.Types;using R5T.T0064;
 
 
 namespace R5T.Solgene.VS2019
-{
-    public class VisualStudio2019SolutionFileGenerator : IVisualStudio2019SolutionFileGenerator
+{[ServiceImplementationMarker]
+    public class VisualStudio2019SolutionFileGenerator : IVisualStudio2019SolutionFileGenerator,IServiceImplementation
     {
         public SolutionFile GenerateVisualStudio2019SolutionFile()
         {

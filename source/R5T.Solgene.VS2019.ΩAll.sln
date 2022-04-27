@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solgene.VS2019.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solgene.VS2019.Testing", "R5T.Solgene.VS2019.Testing\R5T.Solgene.VS2019.Testing.csproj", "{5EE038A2-D280-4F87-AF40-5A46B458B578}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{871C459E-6A47-40EB-9F1C-5D28CBE9B223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{5EE038A2-D280-4F87-AF40-5A46B458B578}.Release|x64.Build.0 = Release|Any CPU
 		{5EE038A2-D280-4F87-AF40-5A46B458B578}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EE038A2-D280-4F87-AF40-5A46B458B578}.Release|x86.Build.0 = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|x64.Build.0 = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|x64.ActiveCfg = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|x64.Build.0 = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D0FD225-87C4-4F08-9C63-7AF4589E8F76} = {871C459E-6A47-40EB-9F1C-5D28CBE9B223}
 	EndGlobalSection
 EndGlobal
